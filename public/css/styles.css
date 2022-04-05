@@ -1,0 +1,181 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
+#header {
+  padding: 20px 50px;
+  background-color: black;
+}
+
+#header a{
+  color: white;
+}
+
+.navbar-nav{
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 20% 0;
+}
+
+.hero-title {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.hero-sub-title {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+#about {
+  padding: 5% 10%;
+}
+
+p.title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+p.description {
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+.billie-picture {
+  height: 50vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center center;
+
+}
+
+.biodata {
+  font-size: 0.9em;
+}
+
+.about-sub-title {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.table-skills {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Work
+--------------------------------------------------------------*/
+#work {
+  padding: 5% 10%;
+}
+
+.text-left {
+  margin: 0;
+}
+
+.text-right {
+  margin: 0;
+}
+
+div.work-title {
+  line-height: 60px;
+}
+
+div.work-logo {
+  text-align: center;
+}
+td.work-logo {
+  padding: 0;
+}
+
+table.work-title {
+  padding: 0;
+  margin: 0;
+}
+
+td.work-title {
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/*--------------------------------------------------------------
+# Education
+--------------------------------------------------------------*/
+#education {
+  padding: 5% 10%;
+}
+
+.education-logo{
+  margin: 15px 0;
+  height: 100%;
+  width: 100%;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.uphf-logo {
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 75px;
+}
+/*--------------------------------------------------------------
+# Publication
+--------------------------------------------------------------*/
+#publication {
+  padding: 5% 10%;
+}
+
+.publication-item {
+  margin-bottom: 30px;
+}
+
+/*--------------------------------------------------------------
+# Award
+--------------------------------------------------------------*/
+#award {
+  padding: 5% 10%;
+}
+
+.badge-award {
+  background-color: #002333;
+  color: white;
+}
+
+.badge {
+  padding: 8px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+  background-color: #002333;
+}
+
+.footer-icon {
+  margin: 0 25px;
+}
